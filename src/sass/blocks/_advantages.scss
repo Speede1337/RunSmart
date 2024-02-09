@@ -38,4 +38,13 @@
       color: $main-color;
     }
   }
+  @media (max-width: 767px) {
+    &__label {
+      font-size: 27px;
+    }
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  }
 }
