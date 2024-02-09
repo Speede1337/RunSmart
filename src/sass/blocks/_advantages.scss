@@ -2,11 +2,6 @@
   min-height: 470px;
   padding: 70px 0 67px 0;
   background-color: #F6F6F6;
-  &__label {
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-  }
   &__wrapper {
     display: flex;
     justify-content: space-between;
@@ -24,6 +19,7 @@
   }
   &__title {
     margin-top: 35px;
+    color: #0d0d0d;
     font-size: 18px;
     font-weight: 700;
     text-align: center;
@@ -33,15 +29,12 @@
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-    span {
+    a {
       text-decoration: underline;
       color: $main-color;
     }
   }
   @media (max-width: 767px) {
-    &__label {
-      font-size: 27px;
-    }
     &__wrapper {
       flex-wrap: wrap;
       justify-content: space-evenly;
