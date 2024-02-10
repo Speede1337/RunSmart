@@ -8,10 +8,13 @@
     color: #fff;
     text-align: left;
     font-size: 36px;
+    @media (max-width: 991px) {
+      text-align: center;
+      font-size: 28px;
+    }
+    @media (max-width: 767px) {
+      font-size: 23px;
+    }
   }
-}
-@media (max-width: 767px) {
-  .title {
-    font-size: 27px;
-  }
+
 }
