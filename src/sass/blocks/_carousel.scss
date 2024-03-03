@@ -16,6 +16,9 @@
       width: 31px;
       height: 50px;
     }
+    @media (max-width: 1280px) {
+      display: none;
+    }
   }
   .next {
     right: -66px;
@@ -26,6 +29,30 @@
       display: block;
       margin: 0 auto;
       width: 100%;
+    }
+  }
+  .tns-outer {
+    [data-action] {
+      display: none;
+    }
+  }
+  .tns-nav {
+    text-align: center;
+    display: none;
+    button {
+      height: 20px;
+      width: 20px;
+      border: 1px solid $main-color;
+      background-color: $main-color;
+      margin: 5px;
+      border-radius: 50%;
+      &.tns-nav-active {
+        background-color: #000;
+        border: 1px solid #000;
+    }
+    }
+    @media (max-width: 1280px) {
+      display: block;
     }
   }
 }
